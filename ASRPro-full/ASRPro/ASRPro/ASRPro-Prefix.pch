@@ -1,0 +1,41 @@
+//
+//  Prefix header
+//
+//  The contents of this file are implicitly included at the beginning of every source file.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+    #import <QuartzCore/QuartzCore.h>
+
+    #import "NetworkMonitor.h"
+
+    #import "Constants.h"
+    #import "AppDelegate.h"
+
+    #import "GlobalConstants.h"
+    #import "SharedUtilities.h"
+    #import "FileUtils.h"
+    #import "GenericFiles.h"
+    #import "UIFont+ASRProFontCategory.h"
+    #import "UIColor+ASRProColorCategory.h"
+    #import "UIImage+ASRProUIImageCategory.h"
+    #import "UIView+CustomHeaderViewFull.h"
+    #import "UIView+CustomAnimation.h"
+    #import "InspectionConstantsFile.h"
+    #import "UIViewController+OrientationFix.h"
+    #import "UIImagePickerController+OrientationFix.h"
+    #import "ServicesConstants.h"
+    #import "InspectionButton.h"
+    #import "PartsConstants.h"
+    #import "UITableView+UITableView_ASRProSeparatorInsetsForiOS8.h"
+    // ADD: import barcode reader APIs
+    #import "ZBarSDK.h"
+#endif

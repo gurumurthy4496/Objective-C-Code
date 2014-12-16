@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>19B20179-1977-4893-BFEE-E8E24F849CBA</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ASRPro</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>7A8F8A53706D6E9C959273DD317AC8241A9BC9EF</key>
+		<string>https://github.com/asrpro/check-in.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ASRPro-full/ASRPro/ASRPro.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>7A8F8A53706D6E9C959273DD317AC8241A9BC9EF</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/asrpro/check-in.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>7A8F8A53706D6E9C959273DD317AC8241A9BC9EF</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>7A8F8A53706D6E9C959273DD317AC8241A9BC9EF</string>
+			<key>IDESourceControlWCCName</key>
+			<string>check-in</string>
+		</dict>
+	</array>
+</dict>
+</plist>

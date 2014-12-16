@@ -1,0 +1,110 @@
+/* 
+  Localizable.strings
+  ASRPro
+
+  Created by GuruMurthy on 27/01/14.
+  Copyright (c) 2014 VL. All rights reserved.
+*/
+/**
+ * Commonly Used Strings
+ */
+"lALERT_TITLE" ="Alert";
+"lALERT_OK" = "OK";
+"lERROR" ="Error";
+"lERROR_RESPONSE_FROM_SERVER_TEXT" = "Error response from server.";
+"lNO_RESPONSE" = "No response from server.";
+/**
+ * Login and registration alert messages
+ */
+
+"lUsername" = "Please enter your username";
+"lPassword" = "Please enter your password";
+"lStoreID" = "Please enter your Store ID";
+
+
+
+"lLOGIN_FAILURE_RESPONSE" = "Incorrect Username, Password or Store ID.";
+"lAccount_Access" = "Your store does not have access to this app. Please contact ASR Pro support for access.";
+/**
+ * Login Screen
+ */
+"lWelcomeToASRProLabel" = "Welcome to ASR Pro";
+"lUsernameLabel" = "User Name";
+"lPasswordLabel" = "Password";
+"lStoreIDLabel" = "Store ID";
+"lForgotUsernameOrPassword?" = "Forgot username or password?";
+"lLogin" = "Login";
+
+/**
+ * Search Screen
+ */
+"Vehicle_Information" = "Vehicle Information";
+"Customer_Information" = "Customer Information";
+"Vehicle_History" = "Today's appointment & RO History";
+"Begin_Vehicle_CheckIn" = "Begin Vehicle Check In";
+"Profile_Button_Title" = "Profile";
+"Contact_Button_Title" = "Contact";
+"Save_Button_Title" = "Save";
+"Add_Button_Title" = "Add";
+"Cancel_Button_Title" = "Cancel";
+"Edit_Customer_Title" = "Edit Customer";
+"Add_Customer_Title" = "Add Customer";
+"Edit_Vehicle_Title" = "Edit Vehicle";
+"Add_Vehicle_Title" = "Add Vehicle";
+"Fleet_Customer" = "Fleet Customer";
+"Individual_Customer" = "Individual Customer";
+"SMS" = "SMS";
+"Email" = "Email";
+"Phone" = "Phone";
+"NO_VEHICLE_HISTORY" = "NO VEHICLE HISTORY FOUND";
+"LOADING_VEHICLE_HISTORY" = "LOADING VEHICLE HISTORY.......";
+"NO_VIN_ERROR" = "Please enter VIN";
+"NO_MILEAGE_ERROR" = "Please enter Mileage";
+"NO_TAG_ERROR" = "Please enter Tag value";
+"Continue_Without_Appointment" = "Continue without appointment";
+"Select_Appointment" = "Select Appointment";
+"No_Appointment" = "No Appointments Found";
+"Currently_OpenRO" = "Currently Open RO";
+"Enter_FirstName" = "Please Enter FirstName";
+"Enter_LastName" = "Please Enter LastName";
+"Mileage_Zero_Error" = "Mileage should be greater than zero";
+"Mileage_Lessthan_Actual" = "The mileage that you entered is less than what is in the DMS, would you like to change this amount to the mileage entered or go back?";
+
+/**
+ * Walk-Around (Vehicle Types & Angles)
+ */
+"VEHICLE_TYPES_TITLES" = "Sedan,Coupe,SUV,Pick Up,Van";
+"VEHICLE_ANGLE_TYPES_LIST" = "Left,Front,Right,Rear,Top";
+"ADD_DAMAGE_TITLE" = "Add Damage";
+"VEHICLE_DAMAGE_ARRAY" = "Ding,Dent,Scratch,Chip,Crack";
+"VEHICLE_SEVERITY_ARRAY" = "Severe,Moderate,Mild";
+"VEHICLE_TAP_TO_INPUT_DETAILS" = "Tap to input details";
+
+/*
+ * UIActionSheet constants
+ */
+
+"lTakePhoto_iPad" = "Take Photo";
+"lChooseExistingPhoto_iPad" = "Choose Photo";
+"lCancelPhoto_iPad" = "Cancel";
+
+/**
+ * Vehicle History
+ */
+"lNoVehicleHistoryFound" = "No Vehicle History Found";
+
+"lCurrentlyOpenRO" = "Currently Open RO";
+
+/**
+ * Check-In View
+ */
+
+"Customer_Vehicle_Info" = "Mobile,Email,Customer No,Year,Make,Model,Engine Type,Mileage,VIN";
+
+
+
+
+
+
+
+

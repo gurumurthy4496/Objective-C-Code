@@ -1,0 +1,304 @@
+diff --git a/ASRPro-full/ASRPro/ASRPro.xcodeproj/project.pbxproj b/ASRPro-full/ASRPro/ASRPro.xcodeproj/project.pbxproj
+index e98b19bec74e6e59e902c07c92c9bc8b21714baa..0b3f6608363c23570feffa15d19fc768ce5e5241 100644
+--- a/ASRPro-full/ASRPro/ASRPro.xcodeproj/project.pbxproj
++++ b/ASRPro-full/ASRPro/ASRPro.xcodeproj/project.pbxproj
+@@ -3597,8 +3597,8 @@
+ 				CLANG_WARN_INT_CONVERSION = YES;
+ 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+ 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+-				CODE_SIGN_IDENTITY = "iPhone Developer: Charles Fordin (LYP47M8TPZ)";
+-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Charles Fordin (LYP47M8TPZ)";
++				CODE_SIGN_IDENTITY = "iPhone Distribution: ASR Pro LLC (6DR3M5PQPS)";
++				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: ASR Pro LLC (6DR3M5PQPS)";
+ 				COPY_PHASE_STRIP = NO;
+ 				GCC_C_LANGUAGE_STANDARD = gnu99;
+ 				GCC_DYNAMIC_NO_PIC = NO;
+@@ -3616,7 +3616,7 @@
+ 				GCC_WARN_UNUSED_VARIABLE = YES;
+ 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+ 				ONLY_ACTIVE_ARCH = NO;
+-				PROVISIONING_PROFILE = "8CA08AE4-5DD3-4EBC-ACD8-816756A85A80";
++				PROVISIONING_PROFILE = "6C9891BA-F457-4E34-833C-D37DDE32526C";
+ 				SDKROOT = iphoneos;
+ 				TARGETED_DEVICE_FAMILY = 2;
+ 				VALID_ARCHS = armv7;
+@@ -3640,8 +3640,8 @@
+ 				CLANG_WARN_INT_CONVERSION = YES;
+ 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+ 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+-				CODE_SIGN_IDENTITY = "iPhone Developer: Charles Fordin (LYP47M8TPZ)";
+-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Charles Fordin (LYP47M8TPZ)";
++				CODE_SIGN_IDENTITY = "iPhone Distribution: ASR Pro LLC (6DR3M5PQPS)";
++				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: ASR Pro LLC (6DR3M5PQPS)";
+ 				COPY_PHASE_STRIP = YES;
+ 				ENABLE_NS_ASSERTIONS = NO;
+ 				GCC_C_LANGUAGE_STANDARD = gnu99;
+@@ -3653,7 +3653,7 @@
+ 				GCC_WARN_UNUSED_VARIABLE = YES;
+ 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+ 				ONLY_ACTIVE_ARCH = NO;
+-				PROVISIONING_PROFILE = "8CA08AE4-5DD3-4EBC-ACD8-816756A85A80";
++				PROVISIONING_PROFILE = "6C9891BA-F457-4E34-833C-D37DDE32526C";
+ 				SDKROOT = iphoneos;
+ 				TARGETED_DEVICE_FAMILY = 2;
+ 				VALIDATE_PRODUCT = YES;
+@@ -3667,8 +3667,8 @@
+ 				ARCHS = "$(ARCHS_STANDARD)";
+ 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+ 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+-				CODE_SIGN_IDENTITY = "iPhone Developer: Charles Fordin (LYP47M8TPZ)";
+-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Charles Fordin (LYP47M8TPZ)";
++				CODE_SIGN_IDENTITY = "iPhone Distribution: ASR Pro LLC (6DR3M5PQPS)";
++				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: ASR Pro LLC (6DR3M5PQPS)";
+ 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+ 				GCC_PREFIX_HEADER = "ASRPro/ASRPro-Prefix.pch";
+ 				INFOPLIST_FILE = "ASRPro/ASRPro-Info.plist";
+@@ -3690,8 +3690,8 @@
+ 				ARCHS = "$(ARCHS_STANDARD)";
+ 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+ 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+-				CODE_SIGN_IDENTITY = "iPhone Developer: Charles Fordin (LYP47M8TPZ)";
+-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Charles Fordin (LYP47M8TPZ)";
++				CODE_SIGN_IDENTITY = "iPhone Distribution: ASR Pro LLC (6DR3M5PQPS)";
++				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: ASR Pro LLC (6DR3M5PQPS)";
+ 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+ 				GCC_PREFIX_HEADER = "ASRPro/ASRPro-Prefix.pch";
+ 				INFOPLIST_FILE = "ASRPro/ASRPro-Info.plist";
+diff --git a/ASRPro-full/ASRPro/ASRPro/ASRPro-Info.plist b/ASRPro-full/ASRPro/ASRPro/ASRPro-Info.plist
+index 237054fa206dcb033cb5be18df4b386626a5d3e7..40dc8467070a42ef4849e01d67b79ef954a8c3fe 100644
+--- a/ASRPro-full/ASRPro/ASRPro/ASRPro-Info.plist
++++ b/ASRPro-full/ASRPro/ASRPro/ASRPro-Info.plist
+@@ -21,7 +21,7 @@
+ 	<key>CFBundleSignature</key>
+ 	<string>????</string>
+ 	<key>CFBundleVersion</key>
+-	<string>1.34</string>
++	<string>1.35</string>
+ 	<key>LSRequiresIPhoneOS</key>
+ 	<true/>
+ 	<key>NSMainNibFile~ipad</key>
+diff --git a/ASRPro-full/ASRPro/ASRPro/OpenROs/Services/Model/OpenRoServiceDataGetter.h b/ASRPro-full/ASRPro/ASRPro/OpenROs/Services/Model/OpenRoServiceDataGetter.h
+index 338f0e76701244ba8217e7d013e6bdf30b941394..2f491bb057ac9e48144754d2b46ad441cc86b4d5 100644
+--- a/ASRPro-full/ASRPro/ASRPro/OpenROs/Services/Model/OpenRoServiceDataGetter.h
++++ b/ASRPro-full/ASRPro/ASRPro/OpenROs/Services/Model/OpenRoServiceDataGetter.h
+@@ -65,6 +65,6 @@ AppDelegate *mAppDelegate_;
+  * Method to filter recommended and primary lines
+  * @param array to be filtered
+  */
+--(void)filterLines:(NSMutableArray*)lTempArray;
++-(void)filterLines:(NSMutableArray*)aServicesArray;
+ 
+ @end
+diff --git a/ASRPro-full/ASRPro/ASRPro/OpenROs/Services/Model/OpenRoServiceDataGetter.m b/ASRPro-full/ASRPro/ASRPro/OpenROs/Services/Model/OpenRoServiceDataGetter.m
+index ad054170e1ff2c8c2d9b5616d86201d72562b55a..fea5bf851e9e9d46c2148c897f7f39efe5426eb4 100644
+--- a/ASRPro-full/ASRPro/ASRPro/OpenROs/Services/Model/OpenRoServiceDataGetter.m
++++ b/ASRPro-full/ASRPro/ASRPro/OpenROs/Services/Model/OpenRoServiceDataGetter.m
+@@ -41,14 +41,14 @@
+ //--------------------------------------------------- ************** ------------------------------------------------------
+ //                                                      *** Method to filter lines  ***
+ //--------------------------------------------------- ************** ------------------------------------------------------
+--(void)filterLines:(NSMutableArray*)lTempArray{
++-(void)filterLines:(NSMutableArray*)aServicesArray {
+     [self.mScheduledServicesArray_ removeAllObjects];
+     [self.mRecommendedServicesArray_ removeAllObjects];
+-    for(int i=0;i<[lTempArray count];i++){
+-        if([[NSString stringWithFormat:@"%@",[[lTempArray objectAtIndex:i] objectForKey:KSGID]] isEqualToString:kPRIMARYSGID])
+-            [self.mScheduledServicesArray_ addObject:[lTempArray objectAtIndex:i]];
++    for(int iterate=0; iterate<[aServicesArray count]; iterate++){
++        if([[[aServicesArray objectAtIndex:iterate] objectForKey:KISPRIMARY] boolValue])
++            [self.mScheduledServicesArray_ addObject:[aServicesArray objectAtIndex:iterate]];
+         else
+-            [self.mRecommendedServicesArray_ addObject:[lTempArray objectAtIndex:i]];
++            [self.mRecommendedServicesArray_ addObject:[aServicesArray objectAtIndex:iterate]];
+     }
+ }
+ 
+diff --git a/ASRPro-full/ASRPro/ASRPro/Services/Model/ServiceDataGetter.h b/ASRPro-full/ASRPro/ASRPro/Services/Model/ServiceDataGetter.h
+index 468279add74c15bb3ed75ed810921a57ffca10a6..2c10ca96c5e8ab681c64b64db0e9c1c70ea95bce 100644
+--- a/ASRPro-full/ASRPro/ASRPro/Services/Model/ServiceDataGetter.h
++++ b/ASRPro-full/ASRPro/ASRPro/Services/Model/ServiceDataGetter.h
+@@ -48,7 +48,7 @@
+ //-(void)FilterRecommendedCurrentServices;
+ -(void)loadServicePackages;
+ -(void)filterServicepackages;
+--(void)filterLines:(NSMutableArray*)lTempArray;
++-(void)filterLines:(NSMutableArray*)aServicesArray;
+ -(BOOL)isAllowZeroHours:(NSString*)aSGID;
+ -(BOOL)isEnableGBB:(NSString*)aSGID;
+ @end
+diff --git a/ASRPro-full/ASRPro/ASRPro/Services/Model/ServiceDataGetter.m b/ASRPro-full/ASRPro/ASRPro/Services/Model/ServiceDataGetter.m
+index 9f230b5fd4d87d6c95ff8d753e3572ecc3879e2e..af287416c2bdc2c1e3d90dcb38429bc5a97005a9 100644
+--- a/ASRPro-full/ASRPro/ASRPro/Services/Model/ServiceDataGetter.m
++++ b/ASRPro-full/ASRPro/ASRPro/Services/Model/ServiceDataGetter.m
+@@ -158,7 +158,7 @@
+     [anArray addObjectsFromArray:lOrdreredArray];
+ }
+ 
+--(void)filterLines:(NSMutableArray*)lTempArray{
++-(void)filterLines:(NSMutableArray*)aServicesArray {
+     [self.mScheduledServicesArray_ removeAllObjects];
+     [self.mRecommendedServicesArray_ removeAllObjects];
+     
+@@ -166,18 +166,18 @@
+     float lrecommendedtotal=0;
+     float lApprovedTotal=0;
+     
+-    for(int i=0;i<[lTempArray count];i++){
+-        if([[NSString stringWithFormat:@"%@",[[lTempArray objectAtIndex:i] objectForKey:@"SGID"]] isEqualToString:@"3"]){
+-            [self.mScheduledServicesArray_ addObject:[lTempArray objectAtIndex:i]];
+-            if([[[lTempArray objectAtIndex:i] objectForKey:@"Approved"] boolValue])
+-                lApprovedTotal+=[[NSString stringWithFormat:@"%.2f",[[[lTempArray objectAtIndex:i] objectForKey:@"Price"] floatValue ]] floatValue];
+-            lscheduletotal+=[[NSString stringWithFormat:@"%.2f",[[[lTempArray objectAtIndex:i] objectForKey:@"Price"] floatValue ]] floatValue];
++    for(int i=0;i<[aServicesArray count];i++){
++        if([[[aServicesArray objectAtIndex:i] objectForKey:KISPRIMARY]boolValue] ){
++            [self.mScheduledServicesArray_ addObject:[aServicesArray objectAtIndex:i]];
++            if([[[aServicesArray objectAtIndex:i] objectForKey:KAPPROVED] boolValue])
++                lApprovedTotal+=[[NSString stringWithFormat:@"%.2f",[[[aServicesArray objectAtIndex:i] objectForKey:KPRICE] floatValue ]] floatValue];
++            lscheduletotal+=[[NSString stringWithFormat:@"%.2f",[[[aServicesArray objectAtIndex:i] objectForKey:KPRICE] floatValue ]] floatValue];
+         }
+         else{
+-            [self.mRecommendedServicesArray_ addObject:[lTempArray objectAtIndex:i]];
+-            if([[[lTempArray objectAtIndex:i] objectForKey:@"Approved"] boolValue])
+-                lApprovedTotal+=[[NSString stringWithFormat:@"%.2f",[[[lTempArray objectAtIndex:i] objectForKey:@"Price"] floatValue ]] floatValue];
+-            lrecommendedtotal+=[[NSString stringWithFormat:@"%.2f",[[[lTempArray objectAtIndex:i] objectForKey:@"Price"] floatValue ]] floatValue];
++            [self.mRecommendedServicesArray_ addObject:[aServicesArray objectAtIndex:i]];
++            if([[[aServicesArray objectAtIndex:i] objectForKey:KAPPROVED] boolValue])
++                lApprovedTotal+=[[NSString stringWithFormat:@"%.2f",[[[aServicesArray objectAtIndex:i] objectForKey:KPRICE] floatValue ]] floatValue];
++            lrecommendedtotal+=[[NSString stringWithFormat:@"%.2f",[[[aServicesArray objectAtIndex:i] objectForKey:KPRICE] floatValue ]] floatValue];
+         }
+         
+         
+diff --git a/ASRPro-full/ASRPro/ASRPro/Services/Model/ServicesConstants.h b/ASRPro-full/ASRPro/ASRPro/Services/Model/ServicesConstants.h
+index f7d397ed937be5c3090e13ea3453eb06d2cba3da..132e605657f758c1f0226575a1ebcd675d7e1454 100644
+--- a/ASRPro-full/ASRPro/ASRPro/Services/Model/ServicesConstants.h
++++ b/ASRPro-full/ASRPro/ASRPro/Services/Model/ServicesConstants.h
+@@ -40,6 +40,7 @@
+ #define KID @"ID"
+ #define KPAYCODE @"Code"
+ #define KSGID @"SGID"
++#define KISPRIMARY @"IsPrimary"
+ #define KSGCID @"SGCID"
+ #define KSERVICEGUIDESPECIALITEMNAME @"ServiceGuideSpecialItemName"
+ #define KSERVICENAME @"ServiceName"
+@@ -62,7 +63,8 @@
+ #define KCUSTOMPRICELABOR @"CustomPriceLabor"
+ #define KCUSTOMPRICEPARTS @"CustomPriceParts"
+ #define KPARTSNOTNEEDED @"PartsNotNeeded"
+-
++#define KAPPROVED @"Approved"
++#define KPRICE @"Price"
+ // OpenROServicesConstants
+ 
+ #define APPROVE_BUTTON_TAG_OPENRO 1
+diff --git a/ASRPro-full/ASRPro/ASRPro/Walk-Around/Controller/WalkAroundViewController.m b/ASRPro-full/ASRPro/ASRPro/Walk-Around/Controller/WalkAroundViewController.m
+index 26c24430a3eb7ab01c72776bf2332e36b650e9ac..1c66ec92e896dd597ef86f87c44469f2295b5937 100644
+--- a/ASRPro-full/ASRPro/ASRPro/Walk-Around/Controller/WalkAroundViewController.m
++++ b/ASRPro-full/ASRPro/ASRPro/Walk-Around/Controller/WalkAroundViewController.m
+@@ -10,6 +10,8 @@
+ #import "ServicesNavigationController.h"
+ #import "CustomImageView.h"
+ 
++#define kVehicleAngleCount 4
++
+ @interface WalkAroundViewController () {
+     AppDelegate *mAppDelegate_;
+ }
+@@ -260,13 +262,19 @@
+     }
+ }
+ 
++#pragma mark --
++#pragma Next Previous Button Actions
+ - (void)setNextPreviousButtons {
++    [self.nextButton setHidden:TRUE];
++    [self.previousButton setHidden:TRUE];
+     CategoryWalkAround *category = (CategoryWalkAround *)[[[[SharedUtilities sharedUtilities] appDelegateInstance] mModelForWalkAround_].mCategoryListArray_ objectAtIndex:[[[SharedUtilities sharedUtilities] appDelegateInstance] mModelForWalkAround_].mTempmVehicleDiagramForDamagesSetID_] ;
+     if ([category.mVehicleDiagramsList count] > 0) {
++        //Vehicle Images not to move circular previous logic
++        /*[self.previousButton setHidden:(nextCount == 0)?TRUE:FALSE];
++        [self.nextButton setHidden:(nextCount == ([category.mVehicleDiagramsList count]-1)?TRUE:FALSE)];*/
++        //Vehicle Images to move circular
+         [self.nextButton setHidden:FALSE];
+-        [self.previousButton setHidden:TRUE];
+-        [self.previousButton setHidden:(nextCount == 0)?TRUE:FALSE];
+-        [self.nextButton setHidden:(nextCount == ([category.mVehicleDiagramsList count]-1)?TRUE:FALSE)];
++        [self.previousButton setHidden:FALSE];
+         if ([category.mVehicleDiagramsList count] == 1) {
+             [self.nextButton setHidden:TRUE];
+             [self.previousButton setHidden:TRUE];
+@@ -281,12 +289,18 @@
+ 
+ - (IBAction)previousButtonAction:(id)sender {
+     nextCount--;
++    if (nextCount < 0) {
++        nextCount = kVehicleAngleCount;
++    }
+     [self setNextPreviousButtons];
+     [self changeImageOnTheScrollView];
+ }
+ 
+ - (IBAction)nextButtonAction:(id)sender {
+     nextCount++;
++    if (nextCount > kVehicleAngleCount) {
++        nextCount = 0;
++    }
+     [self setNextPreviousButtons];
+     [self changeImageOnTheScrollView];
+ }
+diff --git a/ASRPro-full/ASRPro/ASRPro/Walk-Around/Model/ModelForWalkAround.m b/ASRPro-full/ASRPro/ASRPro/Walk-Around/Model/ModelForWalkAround.m
+index 3a6e6ce32b499791f610a7b35a490763fd50d648..9d920c553cee12d9f95ecb0430741e9d282a7e14 100644
+--- a/ASRPro-full/ASRPro/ASRPro/Walk-Around/Model/ModelForWalkAround.m
++++ b/ASRPro-full/ASRPro/ASRPro/Walk-Around/Model/ModelForWalkAround.m
+@@ -10,6 +10,9 @@
+ 
+ #import "CustomImageView.h"
+ 
++#define kCount 4
++#define kWidth 3924
++
+ @implementation ModelForWalkAround
+ @synthesize mButtonID_;
+ @synthesize mVehicleName_;
+@@ -286,12 +289,18 @@
+ 
+ - (void)scrollViewDidEndDecelerating:(UIScrollView *)scrollView
+ {
++    NSLog(@"%f",scrollView.contentOffset.x);
+     if (scrollView == nil) {
+         [self adjustAreaScroll:self.mTempmVehicleAngleForDamagesSetID_];
+     }else {
+-        int imageIdentifier = scrollView.contentOffset.x/scrollView.frame.size.width;
++        if ([[[SharedUtilities sharedUtilities] appDelegateInstance] mWalkAroundViewController_].nextCount == kCount && (scrollView.contentOffset.x == kWidth)) {
++            [[[SharedUtilities sharedUtilities] appDelegateInstance].mWalkAroundViewController_.scrollView setContentOffset:CGPointMake([[SharedUtilities sharedUtilities] appDelegateInstance].mWalkAroundViewController_.scrollView.frame.size.width * 0, 0.0f) animated:NO];
++        }else if([[[SharedUtilities sharedUtilities] appDelegateInstance] mWalkAroundViewController_].nextCount == 0 && (scrollView.contentOffset.x == 0)) {
++            [[[SharedUtilities sharedUtilities] appDelegateInstance].mWalkAroundViewController_.scrollView setContentOffset:CGPointMake([[SharedUtilities sharedUtilities] appDelegateInstance].mWalkAroundViewController_.scrollView.frame.size.width * kCount, 0.0f) animated:NO];
++        }
++        int imageIdentifier = [[SharedUtilities sharedUtilities] appDelegateInstance].mWalkAroundViewController_.scrollView .contentOffset.x/[[SharedUtilities sharedUtilities] appDelegateInstance].mWalkAroundViewController_.scrollView .frame.size.width;
+         [[[SharedUtilities sharedUtilities] appDelegateInstance] mWalkAroundViewController_].nextCount = imageIdentifier;
+-        self.imageStartPositionOnScrollView = scrollView.contentOffset.x;
++        self.imageStartPositionOnScrollView = [[SharedUtilities sharedUtilities] appDelegateInstance].mWalkAroundViewController_.scrollView .contentOffset.x;
+         self.mTempmVehicleAngleForDamagesSetID_ = imageIdentifier;
+         self.mVehicleDiagramViewAngleID_ = imageIdentifier + 1;
+     }
+@@ -307,6 +316,21 @@
+ //    [[[[SharedUtilities sharedUtilities] appDelegateInstance] mWalkAroundViewController_] setNextPreviousButtons];
+ }
+ 
++//- (void)swipingOfTheVehicleWalkAroundToBeContinousFromTopGoBackToLeft {
++//    
++//    if ([[[SharedUtilities sharedUtilities] appDelegateInstance] mWalkAroundViewController_].nextCount == 4) {
++//        
++//        [[[SharedUtilities sharedUtilities] appDelegateInstance].mWalkAroundViewController_.scrollView setContentOffset:CGPointMake([[SharedUtilities sharedUtilities] appDelegateInstance].mWalkAroundViewController_.scrollView.frame.size.width * mVehicleDiagramViewAngleID_, 0.0f)];
++//
++//        
++//        int imageIdentifier = [[SharedUtilities sharedUtilities] appDelegateInstance].mWalkAroundViewController_.scrollView.contentOffset.x/[[SharedUtilities sharedUtilities] appDelegateInstance].mWalkAroundViewController_.scrollView.frame.size.width;
++//        [[[SharedUtilities sharedUtilities] appDelegateInstance] mWalkAroundViewController_].nextCount = imageIdentifier;
++//        self.imageStartPositionOnScrollView = [[SharedUtilities sharedUtilities] appDelegateInstance].mWalkAroundViewController_.scrollView.contentOffset.x;
++//        self.mTempmVehicleAngleForDamagesSetID_ = imageIdentifier;
++//        self.mVehicleDiagramViewAngleID_ = imageIdentifier + 1;
++//    }
++//}
++
+ - (NSString *)getTextFromVehicleDiagramViewAngleID :(NSMutableDictionary *)aMutableDictionary {
+     NSString *vehicleAngleName;
+     __block int vehicleDiagramViewAngleID;
